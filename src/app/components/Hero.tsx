@@ -98,7 +98,7 @@ export function Hero() {
               className="text-3xl md:text-5xl text-[#2F5D50]"
               style={{ fontFamily: "Playfair Display, serif" }}
             >
-              25 Juin 2025
+              09 Septembre 2026
             </p>
           </motion.div>
         </motion.div>

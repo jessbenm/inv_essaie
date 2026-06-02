@@ -18,7 +18,7 @@ export function Timeline() {
     {
       icon: Star,
       title: "Les Fiançailles",
-      date: "26 Juin 2026",
+      date: "09 Septembre 2026",
       description: "Le début d'une belle aventure ensemble",
     },
   ];

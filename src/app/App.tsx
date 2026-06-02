@@ -53,7 +53,7 @@ export default function App() {
                 className="text-[#F2E6D8]/80 text-lg mb-2"
                 style={{ fontFamily: "Cormorant Garamond, serif" }}
               >
-                25 Juin 2025 • Oran, Algérie
+                09 Septembre 2026 • Oran, Algérie
               </p>
               <p
                 className="text-[#F2E6D8]/70 text-base mb-2"

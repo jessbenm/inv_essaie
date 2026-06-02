@@ -44,7 +44,7 @@ export function EventDetails() {
                   className="text-lg text-[#5A7A6E]"
                   style={{ fontFamily: "Cormorant Garamond, serif" }}
                 >
-                  Vendredi, 25 Juin 2025
+                  mercredi, 09 Septembre 2026
                 </p>
               </div>
               <div className="flex items-center gap-3">
