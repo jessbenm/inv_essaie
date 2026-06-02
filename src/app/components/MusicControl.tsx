@@ -1,7 +1,8 @@
 import { motion } from "motion/react";
 import { useState, useRef, useEffect } from "react";
 import { Volume2, VolumeX } from "lucide-react";
-import musicFile from "../../imports/music.mp3";
+
+
 
 export function MusicControl() {
 
@@ -38,10 +39,10 @@ export function MusicControl() {
     <>
       {/* Hidden audio element - User will add their music file */}
       <audio
-        ref={audioRef}
-        loop
-        src={musicFile} // User will add their music file URL here
-      />
+      ref={audioRef}
+      loop
+      src="/music.mp3"
+      />    
 
       {/* Floating music control button */}
       <motion.button
