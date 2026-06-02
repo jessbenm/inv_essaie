@@ -1,9 +1,19 @@
 import { motion } from "motion/react";
 import { Heart } from "lucide-react";
+import marieImage from "../../imports/marie.png";
+
 
 export function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+            {/* Background photo */}
+      <div className="absolute inset-0">
+      <img
+         src={marieImage}
+         alt=""
+         className="w-full h-full object-cover opacity-20 blur-sm"
+      />
+      </div>
       {/* Decorative background */}
       <div className="absolute inset-0 opacity-5">
         <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
@@ -46,7 +56,7 @@ export function Hero() {
             className="text-6xl md:text-8xl lg:text-9xl mb-6 text-[#2F5D50]"
             style={{ fontFamily: "Playfair Display, serif" }}
           >
-            Wafaa <span className="text-[#D4AF37]">&</span> Sofiane
+            selma <span className="text-[#D4AF37]">&</span> nadir
           </h1>
         </motion.div>
 
@@ -88,7 +98,7 @@ export function Hero() {
               className="text-3xl md:text-5xl text-[#2F5D50]"
               style={{ fontFamily: "Playfair Display, serif" }}
             >
-              26 Juin 2026
+              25 Juin 2025
             </p>
           </motion.div>
         </motion.div>

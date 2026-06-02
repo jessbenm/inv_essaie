@@ -46,20 +46,20 @@ export default function App() {
                 className="text-3xl md:text-4xl text-[#F2E6D8] mb-4"
                 style={{ fontFamily: "Playfair Display, serif" }}
               >
-                Wafaa & Sofiane
+                Selma & Nadir
               </h3>
               <div className="h-px w-24 bg-[#D4AF37] mx-auto mb-4" />
               <p
                 className="text-[#F2E6D8]/80 text-lg mb-2"
                 style={{ fontFamily: "Cormorant Garamond, serif" }}
               >
-                26 Juin 2026 • Oran, Algérie
+                25 Juin 2025 • Oran, Algérie
               </p>
               <p
                 className="text-[#F2E6D8]/70 text-base mb-2"
                 style={{ fontFamily: "Cormorant Garamond, serif" }}
               >
-                Familles Benmrah & Bouchikh
+                Familles Benamar & Bouzid
               </p>
               <p className="text-[#F2E6D8]/60 text-sm mt-6">
                 Avec tout notre amour

@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { Heart } from "lucide-react";
-import salleImage from "../../imports/image.png";
+import salleImage from "../../imports/image.jpg";
 
 export function PhotoGallery() {
   return (
@@ -58,7 +58,7 @@ export function PhotoGallery() {
                   className="text-[#F2E6D8] text-lg"
                   style={{ fontFamily: "Cormorant Garamond, serif" }}
                 >
-                  Gambetta, Oran
+                   Oran
                 </p>
               </div>
             </motion.div>

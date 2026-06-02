@@ -1,11 +1,13 @@
 import { motion } from "motion/react";
 import { useState, useRef, useEffect } from "react";
 import { Volume2, VolumeX } from "lucide-react";
+import musicFile from "../../imports/music.mp3";
 
 export function MusicControl() {
+
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement>(null);
-
+  
   useEffect(() => {
     // Auto-play on mount (with user interaction)
     const playAudio = () => {
@@ -38,7 +40,7 @@ export function MusicControl() {
       <audio
         ref={audioRef}
         loop
-        src="" // User will add their music file URL here
+        src={musicFile} // User will add their music file URL here
       />
 
       {/* Floating music control button */}

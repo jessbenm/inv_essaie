@@ -44,7 +44,7 @@ export function EventDetails() {
                   className="text-lg text-[#5A7A6E]"
                   style={{ fontFamily: "Cormorant Garamond, serif" }}
                 >
-                  Vendredi, 26 Juin 2026
+                  Vendredi, 25 Juin 2025
                 </p>
               </div>
               <div className="flex items-center gap-3">
@@ -81,7 +81,7 @@ export function EventDetails() {
                   className="text-lg text-[#5A7A6E]"
                   style={{ fontFamily: "Cormorant Garamond, serif" }}
                 >
-                  Oran, Algérie
+                  Oran
                 </p>
               </div>
               <div className="flex items-center gap-3">
@@ -90,7 +90,7 @@ export function EventDetails() {
                   className="text-base text-[#5A7A6E]"
                   style={{ fontFamily: "Cormorant Garamond, serif" }}
                 >
-                  Gambetta
+                  Algerie
                 </p>
               </div>
             </div>
@@ -105,17 +105,16 @@ export function EventDetails() {
           viewport={{ once: true }}
           transition={{ duration: 0.8 }}
         >
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3196.4949874477825!2d-0.6296472!3d35.6975167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7e8a7d4e5e5e5e%3A0x5e5e5e5e5e5e5e5!2sGambetta%2C%20Oran!5e0!3m2!1sfr!2sdz!4v1234567890"
-            width="100%"
-            height="100%"
-            style={{ border: 0 }}
-            allowFullScreen
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            title="Carte de l'événement"
-          />
-
+         <iframe
+           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.8438101810048!2d-0.6099031243973824!3d35.680847672587326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7e890078700abb%3A0xf84b94ed8fc4e5f8!2sSalle%20des%20f%C3%AAtes%20Zenith!5e0!3m2!1sfr!2sdz!4v1780354521761!5m2!1sfr!2sdz"
+           width="100%"
+           height="500"
+           style={{ border: 0 }}
+           allowFullScreen
+           loading="lazy"
+           referrerPolicy="no-referrer-when-downgrade"
+           title="Carte de l'événement"
+         />
           {/* Decorative overlay */}
           <div className="absolute inset-0 border-8 border-[#D4AF37]/20 pointer-events-none" />
         </motion.div>

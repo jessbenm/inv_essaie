@@ -65,7 +65,7 @@ export function Quote() {
               className="text-[#D4AF37] tracking-widest text-lg"
               style={{ fontFamily: "Montserrat, sans-serif" }}
             >
-              W & S
+              S & N
             </p>
             <div className="h-px w-16 bg-[#D4AF37]" />
           </motion.div>

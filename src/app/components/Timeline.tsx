@@ -5,7 +5,7 @@ export function Timeline() {
   const events = [
     {
       icon: Heart,
-      title: "Les Familles Benmrah & Bouchikh",
+      title: "Les Familles Benamar & Bouzid",
       date: "Une Union",
       description: "Deux familles qui se rencontrent pour célébrer l'amour",
     },
