@@ -36,7 +36,7 @@ export function LoadingScreen({ onComplete }: { onComplete: () => void }) {
             className="text-5xl md:text-7xl mb-4 text-[#F2E6D8]"
             style={{ fontFamily: "Playfair Display, serif" }}
           >
-            W & S
+            S & N
           </h1>
           <motion.div
             className="h-1 w-32 mx-auto bg-[#D4AF37] rounded-full overflow-hidden"
